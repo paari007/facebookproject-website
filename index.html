@@ -112,7 +112,12 @@ border: 0.1px solid rgb(224, 223, 223);
 }
 
 
-
+.input1:focus,
+.input2:focus {
+  border-color: #1877f2;    
+  outline: none;            
+  box-shadow: 0 0 5px rgba(24, 119, 242, 0.5); 
+}
 
 
 .input2{
@@ -190,6 +195,15 @@ margin: 22px 15px 0 15px;
   color: gray;
 }
 
+    .kerg:hover{
+  text-decoration: underline
+}
+
+.kerg{
+  font-weight: bold;
+}
+
+
 
   </style>
   </head>
@@ -206,7 +220,7 @@ margin: 22px 15px 0 15px;
       <div class="forgot-button">Forgotten password?</div>
       <div class="line"></div>
       <button class="create-acc">Create new account</button>
-      <p class="last-line"><strong>Create a page </strong><span class="s1">for celebrity, brand or buisness.</span></p>
+      <p class="last-line"><span class="kerg">Create a page </span><span class="s1">for celebrity, brand or buisness.</span></p>
     </div>
       
     </div>
@@ -214,4 +228,5 @@ margin: 22px 15px 0 15px;
 
   </body>
 </html>
+
 
